@@ -131,13 +131,6 @@ video {
     max-width: 100%;
 }
 
-
-
-/*Estilização da página inicial*/
-font-family: "Inter", sans-serif;
-    line-height: 1.4;
-}
-
 body {
     margin: 0;
     font-family: inherit;
@@ -265,34 +258,34 @@ video {
     max-width: 100%;
 }
 
-
-
 /*Estilização da página inicial*/
+
 .body-index {
     background-color: rgba(64,53,87,255);
     overflow: hidden;
     font-family: 'Inter', sans-serif;
 }
+
 header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 63px;
-  width: 100%;
-  padding: 0 40px;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+    padding: 0 19px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .Logo img{
-    height: 80px;
-    margin-left: 0px;
-    
-}   
+    height: 78px;
+    padding-left: 0;
+    margin-top: 10px;    
+}
 
 nav ul{
     display: flex;
@@ -300,8 +293,9 @@ nav ul{
     list-style: none;
     margin:0;
     padding: 0;
-    
+    margin-right: 10px;
 }
+
 nav ul li a {
     text-decoration: none;
     color: black;
@@ -309,28 +303,32 @@ nav ul li a {
     font-size: 16px;
     font-weight: 500px;
     line-height: 63px;
+    padding-left: 2px;
     transition: color 0.3 ease;
+    padding-right: 15px;
 }
+
 nav ul li a:hover{
     color: #3a3a3a;
 }
+
 .main{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 4rem 2rem;
-   
 }
+
 .secao {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .imagem_cachorro {
-   position: absolute;
+    position: absolute;
     left: 0;
     bottom: 0;
     height: 100%;
@@ -341,43 +339,255 @@ nav ul li a:hover{
     height: 100%;
     object-fit: contain;
 }
-
-.apresentacao{
-  flex: 1;
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  text-align: right;
-  height: 100%;
-  padding-right: 40px;
-  z-index: 2;
-}
+ 
+    /*Texto + Botão */
 .apresentacao h1{
-    font-size: 2.6rem;
-  font-weight: 800;
-  color: #F0F0F0;
-  margin-bottom: 24px;
-  line-height: 1.3;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    font-size: 4.6rem;
+    font-weight: 800;
+    color: #F0F0F0;
+    margin-bottom: 24px;
+    line-height: 1.3;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 150px;
+    margin-left: 750px;
+    padding-bottom: 100px;
 }
+
 .apresentacao a{
-   display: inline-block;
-  background-color: #F0F0F0;
-  color: #1C1134;
-  padding: 12px 28px;
-  font-weight: bold;
-  border-radius: 24px;
-  text-decoration: none;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
+    background-color: #F0F0F0;
+    color: #1C1134;
+    padding: 15px 15px;
+    font-weight: bold;
+    border-radius: 24px;
+    text-decoration: none;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
+    margin-left: 1100px;
+}
 
+
+/*Estilização da parte de legislação*/
+
+.maustratos-legislacao {
+background-image: url('https://i.postimg.cc/KY6xY68G/cachorrodenuncia.png');
+background-size: contain;
+background-position: left center;
+background-repeat: no-repeat;
+height: 565px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0.7%;
+color: white;
+position: relative;
+margin-top: 40px;
+}
+
+.conteudo-legislacao {
+max-width: 500px;
+color: #fff;
+margin-left: 1200px;
+}
+
+.conteudo-legislacao h1 {
+font-size: 2.5rem;
+font-weight: 700;
+margin-bottom: 10px;
+
+}
+
+.conteudo-legislacao p {
+font-size: 1.2rem;
+margin-bottom: 20px;
+}
+
+.btn-primario {
+background-color: #ffffff;
+color: #6a1b9a; /* roxo escuro */
+padding: 10px 20px;
+border-radius: 5px;
+font-weight: bold;
+text-decoration: none;
+
+}
+
+.btn-primario:hover {
+background-color: #f3e5f5; /* roxo claro */
+}
+
+.img-cachorro-legislacao{
+    max-height: 260px;
+}
+
+.info-legislacao{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 32px;
+    background-color: #fff;
+    border: 12px;
+    text-align: center;
+}
+
+.info-legislacao h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.info-legislacao p{
+    font-size: 16px;
+}
+
+    /*Denúncia*/
+.denuncia-legislacao{
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.denuncia-legislacao h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.denuncia-legislacao p{
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.passos-denuncia-legislacao{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 24px;   
+}
+
+.passo-legislacao{
+    background-color: #c4a2f7;
+    padding: 24px;
+    width: 260px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0, 0.1);
+}
+
+.passo-legislacao img{
+    height: 36px;
+    margin-bottom: 12px;
+
+}
+
+.passo-legislacao h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.passo-legislacao p{
+    font-size: 14px;
+}
+
+    /*Botão secundario*/
+.btn-secundario{
+    background-color: #3d2a5c;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: backgroung-color 0.3s;
+}
+
+.btn-secundario :hover{
+    background-color: #2b1e43;
+}
+
+    /* Rodapé */
+.footer {
+  background-color: #c4a2f7; 
+  padding: 40px 20px 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-legislacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 30px;
+  border-bottom: 4px solid transparent;
+}
+
+.footer-legislacao-maus,
+.footer-col {
+  flex: 1;
+  min-width: 220px;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.footer-legislacao-maus h4,
+.footer-col h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.footer-legislacao-maus p,
+.footer-col ul li a {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.5;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 6px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #3d2a5c;
+}
+
+    /* Ícones sociais */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.social-icons a img {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+}
+
+.footer-bottom-legislacao {
+  background-color: #6d529c; 
+  text-align: center;
+  padding: 12px 10px;
+  color: #fff;
+  font-size: 13px;
 }
 
 
 
 
-/*Legislação*/
+
 /*contato*/
 
 
@@ -426,7 +636,7 @@ nav ul li a:hover{
     background-color: white;
     margin: 15px 15px 40px 15px;
     border-radius: 20px;
-    box-shadow: 0 0 0 40 #000000;
+    box-shadow: 1px 1px 10px 1px #000000af;
 }
 
 .cards_noticias:hover {
@@ -460,7 +670,7 @@ nav ul li a:hover{
     /*Imagens de fundo da área de notícias*/
 .imagens_do_fundo {
     display: flex;
-    position: absolute;
+    position: fixed;
     z-index: 0;
 }
 
@@ -469,35 +679,134 @@ nav ul li a:hover{
     height: 400px;
     position: relative;
     top: -120px;
-    right: -400px;
-    rotate: 45deg;
+    right: -300px;
+    rotate: 50deg;
 }
 
 #img_fundo_2 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     position: relative;
     top: 0px;
-    right: -670px;
-    rotate: -45deg;
+    right: -630px;
+    rotate: -40deg;
 }
 
 #img_fundo_3 {
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 300px;
+    right: 900px;
+    rotate: 40deg;
 }
 
 #img_fundo_4 {
-    width: 100px;
-    height: 100px
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: 400px;
+    right: 50px;
+    rotate: -20deg;
 }
 
 #img_fundo_5 {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 300px;
+    right: 1000px;
+    rotate: 10deg;
+}
+/*Página de doação*/
+    /*Fundo da página*/
+.fundo_pagina_doacao {
+    background-color: #7B58C2;
+    display: flex;
+    height: 800px;
 }
 
-/*Estilização da parte de Animais Adotados*/
+    /*Oragaização das imagens do fundo*/
+.img_fundo_doacao_1 {
+    width: 270px;
+    height: 270px;
+    position: relative;
+    top: -520px;
+    right: -1150px;
+    rotate: -40deg;
+}
+
+.img_fundo_doacao_2 {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: -490px;
+    right: -1090px;
+    rotate: 30deg;
+}
+
+.img_fundo_doacao_3 {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: -650px;
+    right: 70px;
+    rotate: 30deg;
+}
+
+.img_fundo_doacao_gato {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    z-index: 0;
+    top: 110px;
+    right: -50px;
+}
+    
+    /*Textos da página de doação*/
+.texto_pagina_doacao {
+    height: 500px;
+}
+.texto_pagina_doacao h1 {
+    position: relative;
+    color: white;
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    top: 220px;
+    right: -80px;
+}
+
+.texto_pagina_doacao button {
+    position: relative;
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    color: #2C2046;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 1px #0000007d;
+    right: -220px;
+    top: 270px;
+
+}
+
+.texto_pagina_doacao button:hover {
+    transform: scale(1.05)
+}
+
+#chave_pix_acapra {
+    position: relative;
+    top: 330px;
+    right: -120px;
+}
+
+
+
+
+/*Estilização de Historia dos Animais*/
 .cor_de_fundo{
     background-color: #F5EEFF;
 }
@@ -562,6 +871,10 @@ nav ul li a:hover{
     font-size: 20px;
 }
 
+.sobreposicao{
+    display: flex;
+}
+
 .bloco3{
     display: flex;
     background-color: rgb(123, 88, 194,40%);
@@ -569,25 +882,58 @@ nav ul li a:hover{
     font-size: 20px;
     border-radius: 20px;
     height: 170px;
-    width: 1000px;
+    width: 4000px;
     margin-left: 150px;
     padding: 30px;
 }
 
-.bloco3 img{
-    height: 20%;
+.bloco_pata img{
+    width: 300%;
+    transform: rotate(-35deg); 
+    display: flex;
+    padding-top: -200px;
+    
 }
 
-/*
-.bloco3{
-    
-
-    width: 80%;
-    padding: 30px;
-    padding-left: 30px;
-    margin: 20px, 30px, 20px, 60px;
-    text-align: justify;
+.sua_historia{
+    background-color: #FFFFFF;
     border-radius: 20px;
-    background-color: rgb(123, 88, 194,40%);
+    margin: 0 auto;
+    width: 80%;
+    height: 200%;
+    border: 2px solid #ccc;
+    padding-bottom: 3%;
+}
+
+.suaHistoria{
     font-size: 20px;
-}*/
+    text-align: center;
+    font-weight: bolder;
+    padding: 40px;
+}
+
+.bloco_historia{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 80%;
+    height: 50px;
+    border: 2px solid #ccc;
+    padding-bottom: 20%;
+}
+
+.campo{
+    text-align: start;
+    border-radius: 20px;
+    width: 100%;
+    height: 245px;
+    padding: 10px;
+}
+
+
+/*Estilização de Estatisticas*/
+
+.foto_cachorros{
+    padding: 50px;
+    margin-top: 50px;
+}
