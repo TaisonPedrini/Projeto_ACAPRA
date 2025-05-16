@@ -920,6 +920,7 @@ background-color: #f3e5f5; /* roxo claro */
     height: 50px;
     border: 2px solid #ccc;
     padding-bottom: 20%;
+
 }
 
 .campo{
@@ -1004,4 +1005,8 @@ background-color: #f3e5f5; /* roxo claro */
 
 .grupo5{
     right: 100px;
+}
+
+.ajuste_tela{
+    padding-top: 170px;
 }
