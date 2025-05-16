@@ -857,9 +857,9 @@ background-color: #f3e5f5; /* roxo claro */
 }
 
 .bloco2 img{
-    width: 282px;
-  height: 283px;
-  border-radius: 20px;
+    width: 20%;
+    height: 283px;
+    border-radius: 20px;
 }
 
 .texto2{
@@ -933,7 +933,75 @@ background-color: #f3e5f5; /* roxo claro */
 
 /*Estilização de Estatisticas*/
 
-.foto_cachorros{
-    padding: 50px;
-    margin-top: 50px;
+.abertura_estatistica{
+    position: relative;
+    display: inline-block;
+}
+
+.abertura_estatistica img {
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+    display: block;
+}
+
+.frase_de_efeito{
+    position: absolute;
+    top: 140px;    
+    left: 210px;       
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.inicio{
+    position: absolute;
+    top: 250px;
+    font-size: 30px;
+    left: 180px;
+    color: white;
+}
+
+.conteudo img{
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    height: 370px;
+}
+
+.grupo1, .grupo2, .grupo3, .grupo4, .grupo5{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 500px;
+    text-align: center;
+}
+
+.numero{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.legenda{
+    font-size: 20px;
+}
+
+.grupo1{
+  left: 100px;
+}
+
+.grupo2{
+    left: 400px;
+}
+
+.grupo3{
+    left: 685px;
+}
+
+.grupo4{
+    right: 400px;
+}
+
+.grupo5{
+    right: 100px;
 }
