@@ -803,6 +803,86 @@ background-color: #f3e5f5; /* roxo claro */
     right: -120px;
 }
 
+    /*Estilização de tela de adoção*/
+.fundo_adote_um_animal {
+    background-color: #2C2046;
+}
+
+.imagem_de_fundo_adocao {
+    position: fixed;
+    width: 600px;
+    top: 100px;
+    right: 460px;
+    z-index: 0;
+}
+
+#cabecalho_adocao {
+    margin-top: 100px;
+    display: flexbox;
+    width: 100%;
+    color: white;
+    justify-items: center;
+}
+
+#cabecalho_adocao h1{
+    font-size: 47px;
+    font-weight: 600;
+}
+
+#cabecalho_adocao p{
+    text-align: center;
+}
+    /*Estilização das partes de pesquisa*/
+
+#pesquisa {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+
+}
+
+/*Continuar daqui*/
+#p_texto {
+    border-radius: 5px;
+    
+}
+#p_texto input[type="text"] {
+    background-color: white;
+    height: 30px;
+}
+
+#p_texto img{
+    width: 30px;
+    margin: 4px 5px 1px 0px;
+    background-color: white;
+    padding: 4px;
+}
+    /*Estilização da página de adoção única*/
+#corpo_pagina {
+    display: flex;
+    justify-content: center;
+}
+
+#img_unica {
+    width: 600px;
+    margin: 110px 60px 20px 60px;
+}
+
+#info_pg_unico {
+    display: flex;
+    justify-content: center;
+}
+
+.info_unica img{
+    width: 60px;
+    padding: 3px;
+}
+.info_unica {
+    display: flex;
+    font-size: 40px;
+    color: white;
+    justify-content: center;
+}
 
 
 
