@@ -758,8 +758,11 @@ nav ul li a:hover{
     /*Fundo da página*/
 .fundo_pagina_doacao {
     background-color: #7B58C2;
+}
+
+.corpo_doacao {
     display: flex;
-    height: 800px;
+    height: 650px;
 }
 
     /*Oragaização das imagens do fundo*/
@@ -770,6 +773,7 @@ nav ul li a:hover{
     top: -520px;
     right: -1150px;
     rotate: -40deg;
+    z-index: -1;
 }
 
 .img_fundo_doacao_2 {
@@ -779,6 +783,7 @@ nav ul li a:hover{
     top: -490px;
     right: -1090px;
     rotate: 30deg;
+    z-index: -1;
 }
 
 .img_fundo_doacao_3 {
@@ -788,6 +793,7 @@ nav ul li a:hover{
     top: -650px;
     right: 70px;
     rotate: 30deg;
+    z-index: -1;
 }
 
 .img_fundo_doacao_gato {
@@ -797,6 +803,7 @@ nav ul li a:hover{
     z-index: 0;
     top: 110px;
     right: -50px;
+    z-index: -1;
 }
     
     /*Textos da página de doação*/
@@ -826,7 +833,6 @@ nav ul li a:hover{
     box-shadow: 1px 1px 10px 1px #0000007d;
     right: -220px;
     top: 270px;
-
 }
 
 .texto_pagina_doacao button:hover {
