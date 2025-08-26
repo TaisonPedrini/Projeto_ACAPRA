@@ -71,29 +71,80 @@
     </div>
 
     <!--Pesquisa-->
+    <div id="t_pesquisa">
+            <p id="t_pesquisa_1">Nome do animal</p>
+            <p id="t_pesquisa_2">Tipo</p>
+            <p id="t_pesquisa_3">Sexo</p>
+        </div>
     <div id="pesquisa">
-        <!--Pesquisa de texto-->
-        <form action="pesquisa_texto" id="p_texto">
-            <input type="text" name="Pesquisar" id="nome">
-            <button type="submit"><img src="assets/img/img_adote_um_animal/img_lupa_icon.png" alt=""></button>
-        </form>
+        <div id="elementos_pesquisa">
+            <!--Pesquisa de texto-->
+            <form action="pesquisa_texto" id="p_texto">
+                <input type="text" name="Pesquisar" id="nome">
+                <button type="submit"><img src="assets/img/img_adote_um_animal/img_lupa_icon.png" alt="" id="b_pesquisa"></button>
+            </form>
 
-        <!--Pesquisa de tipo-->
-        <form action="seleciona_tipo" id="s_tipo">
-            <select name="tipo" id="tipo">
-                <option value="cachorro">Cachorro</option>
-                <option value="gato">Gato</option>
-            </select>
-        </form>
+            <!--Pesquisa de tipo-->
+            <form action="seleciona_tipo" id="s_tipo" class="selecao_pesquisa">
+                <select name="tipo" id="tipo">
+                    <option value="cachorro">Cachorro</option>
+                    <option value="gato">Gato</option>
+                </select>
+            </form>
 
-        <!--Pesquisa de sexo-->
-        <form action="seleciona_tipo" id="s_sexo">
-            <select name="tipo" id="tipo">
-                <option value="macho">Macho</option>
-                <option value="femea">Fêmea</option>
-            </select>
-        </form>
+            <!--Pesquisa de sexo-->
+            <form action="seleciona_tipo" id="s_sexo" class="selecao_pesquisa">
+                <select name="tipo" id="tipo">
+                    <option value="macho">Macho</option>
+                    <option value="femea">Fêmea</option>
+                </select>
+            </form>
+        </div>
     </div>
+
+    <!--Cards adoção-->
+    <div id="grade_adocao">
+        <div class="linha_grade_adocao">
+
+            <div class="card_adocao">
+                <img src="assets\img\img_adote_um_animal\image_1.png" alt="">
+                <div class="texto_card">
+                    <h2>Bartô</h2>
+                    <button><a href="adote_um_animal_especifico.html">Saiba mais...</a></button>
+                </div>
+            </div>
+
+            <div class="card_adocao">
+                <img src="assets\img\img_adote_um_animal\image_2.png" alt="">
+                <div class="texto_card">
+                    <h2>Branca</h2>
+                    <button><a href="adote_um_animal_especifico.html">Saiba mais...</a></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="linha_grade_adocao">
+
+            <div class="card_adocao">
+                <img src="assets\img\img_adote_um_animal\image_3.png" alt="">
+                <div class="texto_card">
+                    <h2>Mavie</h2>
+                    <button><a href="adote_um_animal_especifico.html">Saiba mais...</a></button>
+                </div>
+            </div>
+
+            <div class="card_adocao">
+                <img src="assets\img\img_adote_um_animal\image_4.png" alt="">
+                <div class="texto_card">
+                    <h2>Mimi</h2>
+                    <button><a href="adote_um_animal_especifico.html">Saiba mais...</a></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 
     <!-- Rodapé -->
     <footer class="footer">
