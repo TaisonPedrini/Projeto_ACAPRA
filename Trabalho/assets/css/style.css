@@ -364,6 +364,61 @@ nav ul li a:hover{
     margin-left: 1100px;
 }
 
+/*Estilização da parte de Quem somos?*/
+.quem-somos-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.quem-somos-texto {
+    flex-basis: 70%;
+}
+
+.quem-somos-imagem {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.quem-somos-imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-quem-somos {
+    max-width: 1280px;
+    margin: 40px auto;
+    padding: 32px;
+    background-color: #fff;
+    border: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 80px;
+    margin-top: 180px;
+}
+
+.info-quem-somos h2 {
+    font-size: 37px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    padding: 10px 0px 30px 0px;
+    color: black;
+    text-align: center;
+}
+
+.info-quem-somos p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.quem-somos-texto p {
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 2em; 
+}
+
 /*Estilização da parte de legislação*/
 .body-maustratos {
     overflow-x: hidden;
@@ -1377,5 +1432,6 @@ nav ul li a:hover{
 .ajuste_tela{
     padding-top: 90px;
 }
+
 
 
