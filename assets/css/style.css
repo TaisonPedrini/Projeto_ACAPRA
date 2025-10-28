@@ -1352,17 +1352,17 @@ nav ul li a:hover{
     padding: 10px;
 }
 
-/*Botão secundario*/
+/*Botão terciario*/
 .btn-terciario {
     background-color: #3d2a5c;
     color: #fff;
-    padding: 22px 50px;
+    padding: 2px 30px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: backgroung-color 0.3s;
     margin-left: 42%;
-    font-size: 20px;
+    font-size: 15px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0, 0.1);
 }
 
@@ -1449,6 +1449,7 @@ nav ul li a:hover{
 .ajuste_tela{
     padding-top: 90px;
 }
+
 
 
 
