@@ -437,7 +437,6 @@ nav ul li a:hover{
     padding: 0.7%;
     color: white;
     position: relative;
-    margin-top: 60px;
     padding-top: 64px;
 }
 
@@ -567,7 +566,7 @@ nav ul li a:hover{
     text-decoration: none;
     font-weight: 600;
     transition: backgroung-color 0.3s;
-    margin-left: 830px;
+    margin-left: 42%;
     font-size: 20px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0, 0.1);
 }
@@ -1432,6 +1431,7 @@ nav ul li a:hover{
 .ajuste_tela{
     padding-top: 90px;
 }
+
 
 
 
