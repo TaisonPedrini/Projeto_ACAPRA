@@ -438,13 +438,13 @@ nav ul li a:hover{
     color: white;
     position: relative;
     margin-top: 60px;
+    padding-top: 64px;
 }
 
 .conteudo-legislacao {
     max-width: 900px;
     color: #fff;
     margin-left: 650px;
-    margin-top: -100px;
 }
 
 .conteudo-legislacao h1 {
@@ -1432,6 +1432,7 @@ nav ul li a:hover{
 .ajuste_tela{
     padding-top: 90px;
 }
+
 
 
 
