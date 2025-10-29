@@ -1337,6 +1337,7 @@ nav ul li a:hover{
     background-color: #FFFFFF;
     border-radius: 20px;
     margin: 0 auto;
+    margin-bottom: 20px;
     width: 80%;
     height: 50px;
     border: 2px solid #ccc;
@@ -1349,7 +1350,8 @@ nav ul li a:hover{
     border-radius: 20px;
     width: 100%;
     height: 245px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 /*Botão terciario*/
@@ -1450,6 +1452,7 @@ nav ul li a:hover{
 .ajuste_tela{
     padding-top: 90px;
 }
+
 
 
 
