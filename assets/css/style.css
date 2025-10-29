@@ -1363,6 +1363,7 @@ nav ul li a:hover{
     transition: backgroung-color 0.3s;
     margin-left: 42%;
     font-size: 15px;
+    margin-top: 20px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0, 0.1);
 }
 
@@ -1449,6 +1450,7 @@ nav ul li a:hover{
 .ajuste_tela{
     padding-top: 90px;
 }
+
 
 
 
