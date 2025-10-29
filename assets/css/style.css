@@ -423,6 +423,7 @@ nav ul li a:hover{
 .body-maustratos {
     overflow-x: hidden;
     scroll-behavior: smooth;
+    background-color: #F5EEFF; /*--> Ajuste da cor do fundo*/
 }
 
 .maustratos-legislacao {
@@ -685,7 +686,7 @@ nav ul li a:hover{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #ffffff;
+  /*background-color: #ffffff; --> Ajuste na cor de fundo padão*/ 
   padding: 120px 20px 0px 20px;
 }
 
